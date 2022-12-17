@@ -1,9 +1,7 @@
-package aoc2022.day2_1
-
 import scala.io.Source
 
 @main def run: Unit = {
-  val fileName = "inputs/day2.txt"
+  val fileName = "input.txt"
   val lines = Source.fromFile(fileName).getLines().toList
   val rounds = lines.map(parseRound)
   val scores = rounds.map(scoreRound)

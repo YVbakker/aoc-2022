@@ -2,11 +2,8 @@
 
 Advent Of Code 2022
 
-## sbt project compiled with Scala 3
+## Usage
 
-### Usage
+This is a scala 3 project, with `@main` [method invocation](https://docs.scala-lang.org/scala3/book/methods-main-methods.html). In order to run a specific piece of code, make sure you have scala 3 [installed](https://docs.scala-lang.org/getting-started/index.html#using-the-scala-installer-recommended-way)
 
-This is a normal sbt project. You can compile code with `sbt compile`, run it with `sbt run`, and `sbt console` will start a Scala 3 REPL.
-
-For more information on the sbt-dotty plugin, see the
-[scala3-example-project](https://github.com/scala/scala3-example-project/blob/main/README.md).
+Then simply run `scala part1.scala` for example.
